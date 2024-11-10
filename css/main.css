@@ -1,0 +1,151 @@
+
+header{
+    background-image: url(../imgs/hero_img.png);
+    background-position: center;
+    background-size: 100%;
+    padding-top:20px;
+}
+
+.hero button{
+    background-color: transparent;
+    color: white;
+    border-radius:18px;
+    border: 1px solid black;
+    margin-bottom:320px;
+}
+.hero h1{
+    font-size: 60px;
+    padding-top: 100px;
+}
+.hero button:hover{
+background-color: rgb(7, 118, 204);
+}
+.section1{
+background-color: #252B42;
+color: white;
+padding: 70px 0px ;
+}
+.boks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.card{
+width:  450px;
+padding: 25px;
+
+}
+.card img{
+    width: 15%;  
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.section2{
+    padding: 40px;
+    background-color: #8EC2F2;
+}
+.section3_card{
+    width:300px;
+    background-image: url(../imgs/section_img1.png);
+    box-sizing: 100%;
+    background-position: center;
+    padding: 20px;
+    color: white;
+}
+.section3{
+  padding: 40px;  
+  background-color: #252B42;
+}
+
+.section3_card p, .h4{
+    padding-top: 200px;
+}
+.section3_card:nth-child(1){
+    background-image: url(../imgs/section_img1.png);
+    box-sizing: 100%;
+    background-position: center; 
+}
+.section3_card:nth-child(2){
+    background-image: url(../imgs/section_img4.png);
+    box-sizing: 100%;
+    background-position: center; 
+}.section3_card:nth-child(3){
+    background-image: url(../imgs/section_img1.png);
+    box-sizing: 100%;
+    background-position: center; 
+}
+.section3_card:nth-child(4){
+    background-image: url(../imgs/section_img4.png);
+    box-sizing: 100%;
+    background-position: center; 
+}
+.section4{
+    padding: 40px;
+    background-color: #252B42;
+    color: white;
+}
+.section4_card{
+    text-align: center;
+    border: 1px solid black;
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+
+}
+.text{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+footer{
+    background-color: #252B42;
+    color: white;
+}
+.bloc{
+    line-height: 40px;
+    text-align: center;
+}
+.bloc a{
+    text-decoration: none;
+    color: white;
+}
+.block{
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+}
+.map{
+    display: flex;align-items: center;
+    gap: 8px;
+    margin-bottom: 18px;
+}
+.map a{
+    text-decoration: none;
+    color: white;
+}
+.telephone{
+    display: flex;align-items: center;
+    gap: 8px;
+    margin-bottom: 18px;
+}
+.telephone a{
+    text-decoration: none;
+    color: white;
+}
+
+.f_in{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+a:hover{
+color: aqua;
+}
